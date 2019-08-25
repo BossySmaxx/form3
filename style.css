@@ -1,0 +1,153 @@
+*{margin: 0px; padding: 0px;}
+
+.container
+{
+  width: 100%;
+  height: 100vh;
+  background: #dff9fb;
+}
+
+.main-box
+{
+  width: 80vw;
+  height: 75vh;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+
+.main-box .image-box
+{
+  background-color: black;
+  width: 35%;
+  height: 100%;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+img
+{
+  width: 100%;
+  height: 100%;
+  image-resolution: from-image;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.main-box .form-box
+{
+  width: 65%;
+  height: 100%;
+  /* background-color: #eb4d4b; */
+  position: absolute;
+  top: 0%;
+  left: 35%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.main-box .form-box h2
+{
+  margin:  20px;
+  font-size: 35px;
+  font-family: 'Montserrat', quicksand;
+  letter-spacing: 5px;
+  color: #00a8ff;
+}
+
+.main-box .form-box .user-image svg
+{
+  width: 12vw;
+  height: 12vw;
+  border-radius: 1000px;
+  position: absolute;
+  top: 15%;
+  left: 70%;
+  display: block;
+  box-shadow: 0px 0px 8px 10px rgba(220, 221, 225,1.0);
+}
+
+.main-box .form-box input
+{
+  margin-left: 20px;
+  display: block;
+  margin-top: 10px;
+  background: none;
+  width: 25vw;
+  height: 3vh;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(127, 143, 166,1.0);
+  outline: none;
+  font-family: quicksand;
+  font-weight: bold;
+}
+::placeholder
+{
+  color: black;
+}
+.main-box .form-box select
+{
+  font-weight: bold;
+  margin-top: 10px;
+  background: none;
+  width: 20vw;
+  height: 7vh;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(127, 143, 166,1.0);
+  font-family: quicksand;
+}
+
+.main-box .form-box select option
+{
+  font-weight: bold;
+  outline: none;
+  border: none;
+  height: 100px;
+  color: black;
+  font-size: 15px;
+}
+
+.main-box .form-box span input[type="email"]
+{
+  width: 15vw;
+  display: inline;
+}
+
+button
+{
+  background: #00a8ff;
+  width: 12vw;
+  height: 6vh;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  transition: .52s;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+button:hover
+{
+  border-radius: 100px;
+  box-shadow: 1px 1px 4px 5px #dcdde1;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
